@@ -8,7 +8,7 @@ import java.net.http.HttpResponse;
 public class EquivalenciaDeMonedaAMoneda {
 
     public Moneda ConversionMonedas(String monedaBase, String monedaDestino){
-        String direccion = ("https://v6.exchangerate-api.com/v6/229e251a5d77c4225425c55e/pair/" + monedaBase + "/" + monedaDestino);
+        String direccion = ("https://v6.exchangerate-api.com/v6/key/pair/" + monedaBase + "/" + monedaDestino);
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()

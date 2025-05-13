@@ -1,4 +1,4 @@
-# conversor-de-monedas
+#                                                  CONVERSOR DE MONEDAS
 
  <p>
  <img src="https://img.shields.io/badge/STATUS-Desarrollo-green" alt="Desarrollo"> 
@@ -7,34 +7,45 @@
 
 ## Descripcion del proyecto
 <p align="justify">
-  Este juego permite al usuario ingresar varios nombres, identificados como amigos, de la cual uno sera el amigo secreto, elegido de manera aleatoria por el juego. La lista se muestra en pantalla cada vez que ingresa a un amigo.
+ Conversor de monedas: esta aplicación permite conocer la equivalencia entre monedas, de las opciones que da el menu, se tiene
+ pensado agregar mas monedas; tambien permite hacer la conversion entre diversas monedas de las opciones presentadas.  
 </p>
 
-## Instrucciones
+## Funcionalidades
 <p>
- 1) Ingresar el nombre de cada amigo, añadiendolo a la lista, con el boton "Añadir".
+ 1) Menu principal: muestra al usuario dos opciones, la equivalencia de monedas y la conversion de modenas.
 </p>
 <p>
- 2) Agregado todos los nombres de los amigos 
+ 2) Equivalencia de monedas: muestra dos opciones
+ -la equivalencia del dolar con otras monedas, le permite al usuario elegir una moneda destino, entre las opciones del menu
+ -la equivalencia entre monedas, donde el usuario puede elegir una moneda base y una moneda destino.
+ -Se da igual la opcion de regresar al menu principal.
 </p>
 <p>
- 3) Dar click en el boton "Sortear amigo", para elegir de la lista, al amigo secreto.
+ 3) Conversor de monedas: se presenta el siguiente menu 
+    
+
+  El cliente elige la opcion, escribe la cantidad a convertir, y el sistema muesta el siguiente resultado
 </p>
 
 ## Programas usados
  <p>
-  :heavy_check_mark: HTML
+  :heavy_check_mark: JAVA modo consola
  </p>
  <p>
- :heavy_check_mark: CSS  
+ :heavy_check_mark: ExchangeRate-API: API para la conversion de monedas y tipos de cambio.  
  </p>
-<p>
- :heavy_check_mark: JavaScript 
-</p>
+
 
 ## Agradecimientos
 <p>
-  Agradesco a Oracle y Alura Latam, por el apoyo proporcionado para el desarrollo de este juego.
+  Agradesco a Oracle y Alura Latam, por el apoyo proporcionado para el desarrollo de esta aplicacion.
+</p>
+
+## Nota
+<p>
+ La aplicacion es funcional, faltan algunos ajustes, como en el salto de linea, comentarios para un mejor
+entendimiento del codigo, etc.
 </p>
 
 ## Desarrolladores

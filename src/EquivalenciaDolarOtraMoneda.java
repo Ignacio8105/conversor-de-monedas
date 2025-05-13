@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class EquivalenciaDolarOtraMoneda {
 
     public Moneda Conversion(String monedaDestino){
-        String direccion = ("https://v6.exchangerate-api.com/v6/229e251a5d77c4225425c55e/pair/USD" + "/" + monedaDestino);
+        String direccion = ("https://v6.exchangerate-api.com/v6/key/pair/USD" + "/" + monedaDestino);
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
