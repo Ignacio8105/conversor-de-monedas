@@ -17,14 +17,21 @@
 </p>
 <p>
  2) Equivalencia de monedas: muestra dos opciones
- -la equivalencia del dolar con otras monedas, le permite al usuario elegir una moneda destino, entre las opciones del menu
- -la equivalencia entre monedas, donde el usuario puede elegir una moneda base y una moneda destino.
- -Se da igual la opcion de regresar al menu principal.
 </p>
 <p>
+  -la equivalencia del dolar con otras monedas, le permite al usuario elegir una moneda destino, entre las opciones del menu
+</p>
+<p>
+  -la equivalencia entre monedas, donde el usuario puede elegir una moneda base y una moneda destino.
+</p>
+<p>
+  -Se da igual la opcion de regresar al menu principal.
+</p> 
+<p>
  3) Conversor de monedas: se presenta el siguiente menu 
-    
-
+ <img src = "https://github.com/user-attachments/assets/21dd7c2c-e7a2-417a-bc4f-d5b6a7506f1c" alt="menu conversor")
+</p>   
+<p>
   El cliente elige la opcion, escribe la cantidad a convertir, y el sistema muesta el siguiente resultado
 </p>
 
